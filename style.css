@@ -157,10 +157,13 @@ header li {
     margin-bottom: 100px;
 }
 
-#main li {
-    list-style-type: none;
-    display: inline-block;
-    margin: 10px;
+table {
+    margin: auto;
+}
+
+td {
+    width: 200px;
+    padding: 20px;
 }
 
 
