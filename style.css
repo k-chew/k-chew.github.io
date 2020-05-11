@@ -46,9 +46,12 @@ a:hover {
 header{
     position: -webkit-sticky;
     position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: solid rgb(224, 210, 220) 7px;
     background-color: rgb(235, 226, 232);
-    padding-top: 30px;
-    min-height: 70px;
+    padding-top: 20px;
+    min-height: 50px;
 }
 
 header a button {
@@ -82,16 +85,12 @@ header ul{
 header li {
     display: inline;
     padding: 0 20px 0 20px;
-    position: relative;
 }
 
 #nav {
     float: right;
+    position: relative;
     cursor: url(https://img.icons8.com/color/30/000000/cursor.png), auto;
-}
-
-#nav-container {
-    position: sticky;
 }
 
 
@@ -133,7 +132,7 @@ header li {
 
 /* Main */
 #main {
-    min-height: 1000px;
+    min-height: 800px;
     text-align: center;
 }
 
