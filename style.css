@@ -109,16 +109,18 @@ header li {
     padding-top: 150px;
 }
 
-#intro img {
+#intro #profile {
     float: right;
     width: 40%;
 }
 
 #name {
+    font-family: 'Oswald', sans-serif;
     font-size: 150px;
+    letter-spacing: 10px;
     margin: 0;
     padding: 0;
-    line-height: 150px;
+    line-height: 170px;
 }
 
 
