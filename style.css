@@ -4,11 +4,6 @@ html {
 }
 
 body {
-    background-image: url("images/background.jpeg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family: 'Work Sans', sans-serif;
     font-size: 18px;
     line-height: 1.5;
@@ -110,6 +105,11 @@ header li {
 
 /* Intro */
 #intro {
+    background-image: url("images/background.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
     padding: 0;
     top: 0;
@@ -147,7 +147,8 @@ header li {
 }
 
 #main h2 {
-    color: rgb(224, 75, 102);
+    color: rgb(139, 17, 40);
+    font-family: 'Jost', sans-serif;
     font-size: 40px;
     margin: 10px;
 }
@@ -155,6 +156,8 @@ header li {
 #main .container {
     margin-top: 100px;
     margin-bottom: 100px;
+    padding: 30px;
+    box-shadow: 5px 8px 10px 1px rgb(230, 230, 230);
 }
 
 table {
