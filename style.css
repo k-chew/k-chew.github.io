@@ -98,27 +98,20 @@ header li {
 /* Intro */
 #intro {
     margin: 0;
-    border: 5px gray solid;
+    padding: 0;
+    top: 0;
     font-family: 'Roboto Mono', monospace;
 }
 
 #intro #blurb {
-    top: 0;
-    position: relative;
     width: 45%;
-    margin: 0;
     padding: 1vw;
+    padding-top: 150px;
 }
 
-#pic {
-    justify-content: right;
-    margin: 0;
-    padding: 0;
-}
-
-#pic img {
+#intro img {
+    float: right;
     width: 40%;
-    margin: 0;
 }
 
 #name {
