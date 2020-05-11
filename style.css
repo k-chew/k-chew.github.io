@@ -66,16 +66,18 @@ header a button {
     cursor: pointer;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16px;
+    padding-left: 10px;
+    letter-spacing: 3px;
+    font-size: 13px;
     font-weight: 500;
 }
 
 header a button::before {
     content: '';
     display: block;
-    height: 5px;
+    height: 4px;
     margin-bottom: 4px;
-    background: gray;
+    background: rgb(185, 169, 181);
     top: 0;
     width: 0%;
     transition: all ease-in-out 300ms;
@@ -119,24 +121,26 @@ header li {
 #intro #blurb {
     width: 45%;
     padding: 1vw;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 180px;
+    padding-bottom: 180px;
 }
 
 #intro #profile {
     float: right;
-    margin-top: 55px;
-    margin-right: 90px;
+    margin-top: 80px;
+    margin-right: 110px;
     width: 30%;
 }
 
 #name {
-    font-family: 'Oswald', sans-serif;
-    font-size: 150px;
-    letter-spacing: 10px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 120px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     margin: 0;
     padding: 0;
-    line-height: 170px;
+    font-weight: 1;
+    line-height: 100px;
 }
 
 
@@ -148,17 +152,20 @@ header li {
 }
 
 #main h2 {
-    color: rgb(139, 17, 40);
-    font-family: 'Jost', sans-serif;
+    color: rgb(165, 91, 104);
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
     font-size: 40px;
+    font-weight: 900;
     margin: 10px;
 }
 
 #main .container {
     margin-top: 100px;
     margin-bottom: 100px;
-    padding: 30px;
-    box-shadow: 5px 8px 10px 1px rgb(230, 230, 230);
+    padding: 30px 70px 30px 70px;
+    box-shadow: 0px 0px 10px 1px rgb(230, 230, 230);
 }
 
 table {
@@ -178,6 +185,7 @@ footer {
     background-color: black;
     color: #fff;
     padding: 1%;
+    font-size: 13px;
     height: 25px;
     width: 98%;
     margin-bottom: 0;
