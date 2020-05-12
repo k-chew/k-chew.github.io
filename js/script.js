@@ -5,7 +5,7 @@ $(document).ready(function() {
         threshold: 1,
         rootMargin: "0px 0px -100px 0px"
     };
-    const appearOnScroll = new IntersectionObserver;
+    const appearOnScroll = new IntersectionObserver
     (function(
         entries, 
         appearOnScroll) {
