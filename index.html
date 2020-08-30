@@ -31,6 +31,7 @@
     <section id = "intro">
         <img id="profile" src="images/pic.jpeg"/>
         <div class="container" id="blurb">
+            <h1><a href="redditScrape.php">Reddit scrape test</a></h1>
             <h1 id="name">Kailey Chew</h1>
             <p>Welcome to my website! I'm happy to have you here. If you'd like to read my resume: </p>
             <a href="includes/Kailey Chew Resume.pdf" download="Kailey Chew Resume" target="_blank"><img style="width: 80px; height: 52px;" src=https://img.icons8.com/carbon-copy/2x/resume.png/></a>
@@ -42,23 +43,6 @@
         <div class="container fade-in">
             <a class="anchor" id="experience"></a>
             <h2>Experience</h2>
-            <?php
-            if(array_key_exists('button1', $_POST)) { 
-                button1(); 
-            }
-            function button1() { 
-                $ch = curl_init();
-                curl_setopt($ch,CURLOPT_URL,"https://www.reddit.com/r/Thritis/.json");
-                curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
-                curl_setopt($ch,CURLOPT_HEADER, true);
-                $response = curl_exec($ch);
-                echo $response;
-            }
-            ?> 
-            <form method="post"> 
-                <input type="submit" name="button1"
-                        class="button" value="Button1" />
-            </form> 
             <table>
                 <tr>
                     <td>Python</td>
