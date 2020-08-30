@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+
 <?php
     if(array_key_exists('button1', $_POST)) { 
         button1(); 
@@ -15,3 +19,5 @@
         <input type="submit" name="button1"
                 class="button" value="Button1" />
     </form> 
+</body>
+</html>
